@@ -1,7 +1,6 @@
 body {
        background-image:
-        linear-gradient
-        (90deg, #025074, #008783,#018884,#009c8d);
+       linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
         height:100%;
         width: 100%; 
       }  
