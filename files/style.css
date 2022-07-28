@@ -1,7 +1,5 @@
 body {
-       background-image:
-       linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
-        height:100%;
+       height:100%;
         width: 100%; 
       }  
          #logo-scem{
@@ -36,6 +34,9 @@ body {
          padding-right: 20%;
          padding-top: 0%;
          padding-bottom: 0%;
+         background-image:
+       linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
+        
        }
        #nav{
          height: 5%;
