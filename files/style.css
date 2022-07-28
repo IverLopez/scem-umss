@@ -1,11 +1,17 @@
 body {
-       background-image: linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
-         }  
+       background-image:
+        linear-gradient
+        (90deg, #025074, #008783,#018884,#009c8d);
+        height:100%;
+        width: 100%; 
+      }  
          #logo-scem{
            height: 200px;
            width: 200px;
            border-radius: 50%
+          
          }
+
          
              #logo-rccm{
                  height: 200px;
@@ -23,13 +29,14 @@ body {
          height: 10%;
          width: 100%;
        }
-       #container{
-         height:100%;
-         width: 100%;
-       }
+     
        #encabezado{
          height: 10%;
          width:100%;
+         padding-left: 20%;
+         padding-right: 20%;
+         padding-top: 0%;
+         padding-bottom: 0%;
        }
        #nav{
          height: 5%;
