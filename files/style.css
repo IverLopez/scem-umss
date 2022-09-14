@@ -1,48 +1,66 @@
-body {
-       height:100%;
-        width: 100%; 
-      }  
-         #logo-scem{
-           height: 200px;
-           width: 200px;
-           border-radius: 50%
-          
-         }
+body{height: auto;
+  width: auto;
 
-         
-             #logo-rccm{
-                 height: 200px;
-          width: 200px;
-          border-radius: 60%;
-                 }
-                 #logo-ifmsa{
-                     height: 200px;
-              width: 200px;
-              border-radius: 60%;
-                     }
-       #PIE{
-         background-color: #2d2c55;
-         color: white;
-         height: 10%;
-         width: 100%;
-       }
-     
-       #encabezado{
-         height: 10%;
+}       
+header{
+         height: 20%;
          width:100%;
-         padding-left: 20%;
-         padding-right: 20%;
          padding-top: 0%;
          padding-bottom: 0%;
-         background-image:
-       linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
-        
+         background-image:       linear-gradient(90deg, #025074, #008783,#018884,#009c8d);
+        position: relative;
        }
-       #nav{
-         height: 5%;
-         width:100%;
+
+      header #logo-scem{
+        height: auto;
+        width: 15%;
+        border-radius: 50%;
+        position: relative;
+        left: 43%;
+  justify-content: center
+      }       
+        header  #logo-rccm{
+              height:auto ;
+       width: 16%;
+       border-radius: 30%;
+       position: absolute;
+       right: 10%;
+       top: 4%;
+       justify-content: right;
+       
+              }
+            header  #logo-ifmsa{
+                  height:auto;
+           width: 12%;
+           border-radius: 60%;
+           position:absolute;
+           left: 10%;
+           top: 15%;
+                  }
+  
+
+
+#nav{
+         height: auto;
+         width:auto;
+         position: static;
        }
-       #cuerpo{
-         height: 75%;
-         width:100%;
+#carousel .img {
+        height: 20%; 
+        width: auto; 
        }
+       
+
+       #PIE{
+        background: #2D2C55;
+        color: white;
+        width: auto;
+        height: 20%;
+        font-size: 54%;
+      }
+#mapa {
+  height: auto;
+  width: 100%;
+  left: 1%;
+}
+      
